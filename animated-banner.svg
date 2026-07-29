@@ -1,0 +1,61 @@
+<svg viewBox="0 0 900 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+
+    <linearGradient id="textGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF">
+        <animate attributeName="offset" values="-1;1" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#B983FF">
+        <animate attributeName="offset" values="-0.5;1.5" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00E5FF">
+        <animate attributeName="offset" values="0;2" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="150" fill="url(#bg)" rx="12"/>
+
+  <!-- scan line -->
+  <rect x="0" y="0" width="4" height="150" fill="#00E5FF" opacity="0.6">
+    <animate attributeName="x" values="0;896;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- orbiting dots -->
+  <circle cx="60" cy="75" r="4" fill="#00E5FF">
+    <animateMotion dur="6s" repeatCount="indefinite"
+      path="M0,0 a35,35 0 1,0 70,0 a35,35 0 1,0 -70,0"/>
+  </circle>
+  <circle cx="840" cy="75" r="4" fill="#B983FF">
+    <animateMotion dur="5s" repeatCount="indefinite"
+      path="M0,0 a30,30 0 1,1 -60,0 a30,30 0 1,1 60,0"/>
+  </circle>
+
+  <text x="450" y="70" text-anchor="middle" font-family="Fira Code, monospace"
+        font-size="32" font-weight="700" fill="url(#textGlow)" filter="url(#glow)">
+    SHAMBHAVI SINHA
+  </text>
+
+  <text x="450" y="105" text-anchor="middle" font-family="Fira Code, monospace"
+        font-size="16" fill="#B983FF" opacity="0.9">
+    Cloud Engineer · DevOps Engineer · AI Researcher
+  </text>
+
+  <!-- pulsing underline -->
+  <rect x="300" y="118" width="300" height="2" fill="#00E5FF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
