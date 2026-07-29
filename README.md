@@ -12,6 +12,10 @@
 
 <br/>
 
+<img src="https://raw.githubusercontent.com/sinhasham/sinhasham/main/animated-banner.svg" width="100%"/>
+
+<br/>
+
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=100&lines=Building+Intelligent+Cloud+Systems;AWS+%7C+Terraform+%7C+Docker+%7C+Kubernetes;LLMs+%2B+RAG+%2B+AI+Agents+%2B+Research;Turning+Ideas+into+Production-Grade+Systems" alt="Typing SVG" />
 </a>
@@ -20,7 +24,6 @@
 
 <a href="https://linkedin.com/in/shambhavi-sinha-b5960332"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:sinhashambhavisinha2304@gmail.com"><img src="https://img.shields.io/badge/Email-6A0DAD?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://doi.org/10.5281/zenodo.21643355"><img src="https://img.shields.io/badge/Research-Zenodo-1682D4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
 <a href="https://twitter.com/YOUR_HANDLE"><img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
 
 <br/>
@@ -73,23 +76,6 @@ I debug infra by day and empathy-tune LLMs by night
 
 <br/>
 
-## 🗺️ Professional Timeline
-
-```text
-2022 ─┬─ Started B.Tech CSE (Cloud Computing) @ D. Y. Patil International University
-      │
-2023 ─┼─ Deep dive into AWS, Terraform, Docker, Kubernetes
-      │
-2024 ─┼─ Built PrepIQ — AI Interview Coach (Groq + Llama 3 + Streamlit)
-      │
-2025 ─┼─ Research Intern @ BIT Mesra
-      ├─ Published "Empathetic Depression Counseling LLM" → Zenodo DOI
-      │
-Now  ─┴─ Building Cloud Cost Insights · Exploring AI Agents & Agentic RAG
-```
-
-<br/>
-
 ## 🔬 Research
 
 <div align="center">
@@ -102,10 +88,6 @@ Now  ─┴─ Building Cloud Cost Insights · Exploring AI Agents & Agentic RAG
 <img src="https://img.shields.io/badge/Chain%20of%20Empathy-Response%20Design-00E5FF?style=flat-square"/>
 <img src="https://img.shields.io/badge/RAG-Retrieval%20Augmented-B983FF?style=flat-square"/>
 <img src="https://img.shields.io/badge/Crisis%20Detection-Safety%20Layer-00E5FF?style=flat-square"/>
-
-<br/><br/>
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21643355.svg)](https://doi.org/10.5281/zenodo.21643355)
 
 </div>
 
@@ -129,14 +111,14 @@ Mock interviews, resume review, and ATS scoring powered by Groq-accelerated Llam
 </td>
 <td width="33%" valign="top">
 
-### ☁️ Cloud Cost Insights
-**ML-driven Cost Forecasting**
+### 🔐 Production-Grade DevSecOps Platform
+**Kubernetes + GitOps + Security Pipeline**
 
-Regression models that visualize and forecast AWS spend trends.
+A full production-grade DevSecOps platform on Kubernetes — Helm, Terraform, ArgoCD GitOps, automated security scanning (Trivy, Checkov, Gitleaks), and a complete Prometheus/Grafana/Loki/OpenTelemetry observability stack.
 
-`Machine Learning` `Regression` `AWS` `Visualization`
+`Kubernetes` `Helm` `Terraform` `ArgoCD` `GitHub Actions` `Trivy` `Checkov` `Gitleaks` `Prometheus` `Grafana` `Loki` `OpenTelemetry`
 
-[🔗 Repo](#) · [🌐 Live Demo](#)
+[🔗 Repo](https://github.com/sinhasham/devsecops-platform)
 
 </td>
 <td width="33%" valign="top">
@@ -146,9 +128,7 @@ Regression models that visualize and forecast AWS spend trends.
 
 CoT + CoE reasoning pipeline with RAG grounding and crisis detection.
 
-`LLM` `RAG` `CoT` `CoE` `Zenodo`
-
-[📄 Paper (DOI)](https://doi.org/10.5281/zenodo.21643355)
+`LLM` `RAG` `CoT` `CoE`
 
 </td>
 </tr>
@@ -222,7 +202,7 @@ CoT + CoE reasoning pipeline with RAG grounding and crisis detection.
 ## 🧭 Roadmap
 
 - [x] Master core AWS + Terraform + Docker + Kubernetes workflows
-- [x] Publish first applied-AI research paper (Zenodo)
+- [x] Publish first applied-AI research paper
 - [ ] Contribute to an open-source cloud/AI infrastructure project
 - [ ] Ship an agentic RAG framework as a public repo
 - [ ] Present research at a student/AI conference
