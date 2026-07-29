@@ -8,10 +8,6 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=250&section=header&text=SHAMBHAVI%20SINHA&fontSize=55&fontColor=00E5FF&fontAlignY=38&animation=fadeIn&desc=Cloud%20Engineer%20%7C%20DevOps%20Engineer%20%7C%20AI%20Researcher&descAlignY=58&descSize=20&descColor=B983FF" width="100%"/>
-
-<br/>
-
 <img src="https://raw.githubusercontent.com/sinhasham/sinhasham/main/animated-banner.svg" width="100%"/>
 
 <br/>
@@ -177,21 +173,13 @@ CoT + CoE reasoning pipeline with RAG grounding and crisis detection.
 
 <br/>
 
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/sinhasham/sinhasham/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-
-</div>
-
-> Generated automatically via the GitHub Action in `.github/workflows/snake.yml` — see setup below.
-
-<br/>
-
 ## 🏆 Achievements
 
 <div align="center">
+
+<img src="https://img.shields.io/badge/Microsoft%20Azure-AZ--900%20Certified-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+
+<br/><br/>
 
 <img src="https://github-profile-trophy.vercel.app/?username=sinhasham&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8" />
 
